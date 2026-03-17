@@ -1,6 +1,6 @@
-# 📚 Bibulous: AI-Powered Book Recommendation Engine
+# 📚 Biblious: AI-Powered Book Recommendation Engine
 
-Welcome to my fork of the **Bibulous** project! Bibulous is a next-generation social book tracking and intelligent discovery platform. 
+Welcome to my fork of the **Biblious** project! Biblious is a next-generation social book tracking and intelligent discovery platform. 
 
 This repository specifically highlights my contributions to the project: the design, development, and optimization of the **Machine Learning Recommendation Engine**. 
 
@@ -76,4 +76,4 @@ The script will train the SVD model, build the TF-IDF tag matrix, calculate eval
 ## 🌐 Full-Stack Application Repository
 
 This repository focuses specifically on the Machine Learning pipeline and Recommendation Engine. If you want to see the full implementation of the web platform, including the Next.js frontend and FastAPI backend, please visit the main team repository:
-👉 [Full-Stack Bibulous Repo](https://github.com/metehanyurdunusvn/bibulous)
+👉 [Full-Stack Biblious Repo](https://github.com/metehanyurdunusvn/Biblious)
