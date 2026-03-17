@@ -8,7 +8,7 @@ This repository specifically highlights my contributions to the project: the des
 
 This project was developed by a team of 5 members. While my teammates successfully built the Full-Stack architecture using Next.js and FastAPI, **I took full ownership of the data analysis and machine learning pipeline.**
 
-My primary focus and the core of this repository's machine learning logic is located in the `kitap_oneri1.py` file. I was responsible for:
+My primary focus and the core of this repository's machine learning logic is located in the `recommendation_engine.py` file. I was responsible for:
 
 * **Data Processing & Filtering:** Processing millions of rows from the Goodreads dataset, filtering out noisy tags and sparse interactions to curate a highly reliable dataset of 5.4 million ratings.
 
@@ -17,7 +17,7 @@ My primary focus and the core of this repository's machine learning logic is loc
 * **Algorithm Development:** Building a 3-layered Hybrid Recommendation System combining Collaborative Filtering and Content-Based Filtering.
 * **Model Evaluation:** Designing realistic hold-out validation methods to measure Precision@K, Catalog Coverage, and RMSE to prevent model overfitting.
 
-## 🧠 Recommendation Engine Architecture (kitap_oneri1.py)
+## 🧠 Recommendation Engine Architecture (recommendation_engine.py)
 
 The recommendation engine goes beyond simple popularity metrics by understanding complex user taste patterns through a hybrid approach:
 
@@ -68,7 +68,7 @@ pip install pandas numpy scikit-surprise scipy
 
 3. Run the Python script:
 ```bash
-python kitap_oneri1.py
+python recommendation_engine.py
 ```
 
 The script will train the SVD model, build the TF-IDF tag matrix, calculate evaluation metrics, and print out sample recommendations (Smart Recommendations, Same Author, Series Continuations, and Hybrid Similarities) directly to the terminal.
