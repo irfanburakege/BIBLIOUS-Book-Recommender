@@ -64,8 +64,12 @@ You can test the recommendation logic locally without running the entire web app
 pip install pandas numpy scikit-surprise scipy
 ```
 
-2. Place your dataset files (`books.csv`, `ratings.csv`, `tags.csv`, `book_tags.csv`) in the root directory.
+2. **Download the Dataset:**
+   The model is trained on the publicly available **goodbooks-10k** dataset. You can download the required data files (`books.csv`, `ratings.csv`, `tags.csv`, `book_tags.csv`) directly from the original open-source repository:
+   👉 [zygmuntz/goodbooks-10k Dataset](https://github.com/zygmuntz/goodbooks-10k)
 
+   Once downloaded, extract and place these CSV files directly into the root directory of this project before running the script.
+   
 3. Run the Python script:
 ```bash
 python recommendation_engine.py
